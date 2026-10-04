@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeeeee;
+}
+.form-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 8%;
+}
+label {
+  display: block;
+  margin-bottom: 18px;
+}
+input,
+select {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 11px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 11px;
+  box-shadow:0 5px 3px rgba(66, 66, 66, 0.541);
+}

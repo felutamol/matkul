@@ -1,0 +1,15 @@
+body {
+ font-family: Arial, sans-serif;
+}
+h1 {
+ color: #ff1133;
+ font-size: 41px;
+}
+p {
+ font-size: 18px;
+}
+button {
+ background-color: #ff1133;
+ color: rgb(255, 251, 0);
+ padding: 18px 40px;
+}
