@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 36%;
+  margin: auto;
+  text-align: center;
+}
+
+.container.wide {
+  width: 60%;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+/* ===== Card ===== */
+.form-box,
+.table-box {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.233);
+}
+
+.table-box {
+  overflow-x: auto;
+}
+
+/* ===== Form ===== */
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(2, 2, 146);
+}
+
+/* ===== Tabel ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tr:hover td {
+  background-color: #e6e6ff;
+}
+
+td:last-child {
+  word-break: break-all;
+}
+
+/* ===== Pesan login ===== */
+.pesan {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.pesan.berhasil {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.pesan.gagal {
+  background-color: #f8d7da;
+  color: #721c24;
+}
